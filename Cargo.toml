@@ -1,0 +1,10 @@
+[package]
+name = "codebuild-launcher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aws-config = "1.5.3"
+aws-sdk-codebuild = "1.42.0"
+
+tokio = { version = "1", features = ["full"] }
